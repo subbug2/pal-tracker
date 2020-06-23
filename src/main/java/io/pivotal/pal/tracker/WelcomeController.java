@@ -10,6 +10,11 @@ public class WelcomeController {
     @Value("${welcome.message}")
     String message;
 
+    public WelcomeController(@Value("${welcome.message}") String a_welcome_message) {
+        this.message= a_welcome_message;
+    }
+
+
     @GetMapping("/")
 
     public String sayHello() {
