@@ -16,3 +16,9 @@ cf start pal-tracker
 cf set-env pal-tracker WELCOME_MESSAGE 'Hello from Cloud Foundry'
 
 cf restage pal-tracker
+
+api endpoint:   https://api.run.pivotal.io
+api version:    2.147.0
+user:           Nagasubrahmanyeswara@dell.com
+org:            DellEMC_PAL
+space:          nagasubrahmanyeswara@dell.com
